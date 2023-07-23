@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="acid">
 
 <head>
     <meta charset="UTF-8">
@@ -55,8 +55,8 @@
                     <button class="btn btn-primary">Explore More</button>
                   </div>
                   <div>
-                    <img src="./images/banner.png" class="max-w-lg" />
-                    <div class="-mt-20 ml-5 flex items-center gap-4 drop-shadow-lg bg-white w-64 p-5">
+                    <img src="./images/banner.png" class="max-w-sm md:max-w-lg" />
+                    <div class="-mt-20 ml-0 md:ml-5 flex items-center gap-4 drop-shadow-lg bg-white w-64 p-5">
                         <i class="fa-solid fa-star text-4xl text-amber-500"></i>
                         <div>
                             <h3 class="text-3xl font-extrabold text-primary">5.00</h3>
@@ -70,8 +70,47 @@
     </header>
 
     <!-- Main starts here -->
-    <main class="container mx-auto">
-
+    <main class="container mx-auto my-20 md:my-40">
+        <!-- Feature section -->
+        <section class="text-center">
+            <h3 class="text-5xl font-extrabold text-primary mb-5">Our Featured Products</h3>
+            <p class="text-secondary font-medium max-w-4xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+           <!-- grid card container -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20">
+                 <!-- first card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4] shadow-xl p-5">
+                    <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-primary text-2xl font-extrabold">Milk Tea</h2>
+                      <p class="text-secondary font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                   <!-- second card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4] shadow-xl p-5">
+                    <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-primary text-2xl font-extrabold">Black Tea</h2>
+                      <p class="text-secondary font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                   <!-- third card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4] shadow-xl p-5">
+                    <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-primary text-2xl font-extrabold">Lemon Tea</h2>
+                      <p class="text-secondary font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+                   <!-- fourth card -->
+                <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#f4f4f4] shadow-xl p-5">
+                    <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="text-primary text-2xl font-extrabold">Green Tea</h2>
+                      <p class="text-secondary font-semibold">Creamer could be replaced by fresh milk</p>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer starts here -->
